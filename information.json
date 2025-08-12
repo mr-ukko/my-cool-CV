@@ -79,7 +79,7 @@
     ],
     "debugConsoles": [
     {
-      "name": "Server Logs",
+      "name": "Comppany 1",
       "logs": [
         "Lorem ipsum dolor sit amet,",  
         "Consectetur adipiscing elit."  ,
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "name": "Build Output",
+      "name": "Comppany 2",
       "logs": [
         "Lorem ipsum dolor sit amet,",  
         "Consectetur adipiscing elit."  ,
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "name": "Build Output",
+      "name": "Company 3",
       "logs": [
         "Lorem ipsum dolor sit amet,",  
         "Consectetur adipiscing elit."  ,
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "name": "Build Output",
+      "name": "School three",
       "logs": [
         "Lorem ipsum dolor sit amet,",  
         "Consectetur adipiscing elit."  ,
@@ -141,7 +141,7 @@
       ]
     },
     {
-      "name": "Build Output",
+      "name": "school two",
       "logs": [
         "Lorem ipsum dolor sit amet,",  
         "Consectetur adipiscing elit."  ,
