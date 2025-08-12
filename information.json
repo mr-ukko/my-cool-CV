@@ -1,0 +1,156 @@
+ {
+    "projectName": "<Creator Name> - CV",
+    "structure": [
+      {
+        "name": "Contact information",
+        "type": "folder",
+        "children": [
+          {
+              "name": "Creator Name",
+              "type": "file",
+              "tag": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut hendrerit eleifend orci, ac imperdiet turpis ornare at. Sed urna massa, vehicula a fringilla sit amet, \npellentesque et urna. Praesent dapibus nulla nec justo consequat, eu condimentum felis varius. Donec molestie lacus lacus, vel sollicitudin elit convallis quis.\n Nullam blandit consequat ultrices. Nullam faucibus ex interdum suscipit iaculis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos\n himenaeos. Suspendisse ac blandit diam. Sed porttitor leo lacinia sapien dictum, eget feugiat magna ullamcorper. Aliquam vehicula, ante ut congue posuere, purus ex\n placerat tellus, at pharetra purus sem quis nunc. Curabitur finibus magna ut aliquet rhoncus. Sed convallis id mauris at molestie. Aenean suscipit imperdiet commodo.\n Pellentesque a odio dignissim, maximus tellus eget, euismod enim. Vivamus eu mi placerat, aliquet metus quis, viverra felis. Orci varius natoque penatibus et magnis dis\n parturient montes, nascetur ridiculus mus. "
+          },
+          {
+            "name": "creator.name@mail.com",
+            "type": "link",
+            "url": "mailto:creator.name@mail.com"
+          },
+          {
+              "name": "+123 12 345 6789",
+              "type": "link",
+              "url": "tel:+123123456789"
+          },
+          {
+              "name": "My Website",
+              "type": "link",
+              "url": "https://example.com/"
+          },
+          {
+              "name": "My Github (account name)",
+              "type": "link",
+              "url": "https://github.com/"
+          }          
+        ]
+      },
+      {
+        "name": "Experience & Skills",
+        "type": "folder",
+        "children": [
+          {
+            "name": "Programming projects using programming languages",
+            "type": "folder",
+            "children": [
+              {
+                "name": "C#, PHP, SQL, HTML, C++ ",
+                "type": "file",
+                "tag": "C#, PHP, SQL, HTML, C++ "
+              }
+            ]
+          },
+          {
+            "name": "Basics of other programming languages ",
+            "type": "folder",
+            "children": [
+              {
+                "name": "C, Java, JavaScript, Python ",
+                "type": "file",
+                "tag": "C, Java, JavaScript, Python "
+              }
+            ]
+          },
+          {
+            "name": "Spoken languages ",
+            "type": "folder",
+            "children": [
+              {
+                "name": "English",
+                "type": "file",
+                "tag": "English"
+              },
+              {
+                "name": "Finnish",
+                "type": "file",
+                "tag": "Finnish"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "debugConsoles": [
+    {
+      "name": "Server Logs",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua." 
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    },
+    {
+      "name": "Build Output",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua." 
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    },
+    {
+      "name": "Build Output",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua." 
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    }
+   ],
+   "education": [
+    {
+      "name": "School one",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua."  
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    },
+    {
+      "name": "Build Output",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua." 
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    },
+    {
+      "name": "Build Output",
+      "logs": [
+        "Lorem ipsum dolor sit amet,",  
+        "Consectetur adipiscing elit."  ,
+        "Sed do eiusmod tempor incididunt",  
+        "Ut labore et dolore magna aliqua." 
+      ],
+      "timeStamp": [
+        "MARCH 19TH TO MARCH 23RD, 2018"
+      ]
+    }
+   ]
+  }

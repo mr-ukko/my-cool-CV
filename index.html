@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mock VS Code UI</title>
+  <link href="https://microsoft.github.io/vscode-codicons/dist/codicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./common.css">
+</head>
+  
+<body>
+  <div class="app">
+    <!-- Title bar -->
+    <div class="titlebar">
+      <div class="menu">
+        <span>Programmer</span>
+        <span>Developer</span>
+        <span>Full-Stack</span>
+        <span>Backend</span>
+        <span>Applications</span>
+        <span>Linux</span>
+        <span>Terminal</span>
+        <span>IT-Help</span>
+      </div>
+      <div class="title">my-cool-CV • Visual Studio Code Style</div>
+      <div class="window-controls">
+        <i class="codicon codicon-chrome-minimize" title="Minimize"></i>
+        <i class="codicon codicon-chrome-restore" title="Maximize"></i>
+        <i class="codicon codicon-chrome-close" title="Close"></i>
+      </div>
+    </div>
+
+    <aside class="sidebar">
+      <h3>INFORMATION</h3>
+      <ul class="tree" id="explorerTree"></ul>
+    </aside>
+
+    <section>
+      <div class="tabs"><span id="tabLabel">Select a file</span></div>
+      <div class="editor-wrapper">
+        <div class="line-numbers" id="lineNumbers"></div>
+        <div class="editor" id="editorContent">Click a file from the Explorer to show content.</div>
+      </div>
+    </section>
+    <div class="education-folder">
+      <h3>Education</h3>
+      <div class="education" id="education">
+      </div>
+    </div>
+
+    <div class="Job-Text"><h2>Job History</h2><div></div></div>
+    <div class="debug-area" id="debugArea"></div>
+    <script src="renderer.js"></script>
+    <footer class="statusbar">
+      <div>Changed • 25.8.2025</div>
+      <div>0.9.0 • Abbey</div>
+      <div>
+        <div class="codicon codicon-github" style="float: right" title="github">
+        </div>
+        <a class="github-Origin-Text" href="github.io/mr-ukko">
+          origin: mr-ukko/  
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>

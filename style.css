@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+    background: #1e1e1e;
+    color: #d4d4d4;
+  }
+  /* Title bar */
+  .titlebar{
+    grid-column: 1 / -1;
+    background:var(--titlebar-bg);
+    color:var(--titlebar-fg);
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:0 10px;
+    user-select:none;
+    border-bottom:1px solid var(--border);
+  }
+  .titlebar .menu{
+    display:flex;
+    gap:14px;
+    font-size:12.5px;
+    color:#e0e0e0;
+    opacity:.9;
+  }
+  .titlebar .menu span{cursor:default;}
+  .titlebar .title{
+    margin:0 auto;
+    font-size:12.5px;
+    opacity:.9;
+  }
+  .titlebar .window-controls{
+    display:flex;
+    gap:10px;
+    color:#e0e0e0;
+    font-size:14px;
+  }
+  .titlebar .window-controls i{
+    opacity:.85;
+  }
+
+  .sidebar {
+    background: #252526;
+    padding: 10px;
+    overflow-y: auto;
+    border-right: 1px solid #2a2a2a;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .sidebar h3 {
+    font-size: 18px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: #cccccc;
+  }
+  .codicon-link {
+    color: #4fc1ff;
+  }
+  .tree a:hover {
+    text-decoration: underline;
+  }
+  .tree {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .tree li {
+    padding: 5px 6px;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .tree li:hover {
+    background: #37373d;
+  }
+  .tabs {
+    background: #2d2d2d;
+    color: #ccc;
+    display: flex;
+    padding: 5px 12px;
+    font-size: 13px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+
+  .editor-wrapper {
+    display: flex;
+    height: 100%;
+  }
+  .line-numbers {
+    background: #2d2d2d;
+    color: #858585;
+    padding: 14px 10px;
+    font-size: 13px;
+    text-align: right;
+    user-select: none;
+    white-space: pre;
+  }
+  .editor {
+    padding: 14px;
+    font-size: 13px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    flex: 1;
+  }
+
+  .school {
+  background: #1e1e1e;
+  border-top: 1px solid #2a2a2a;
+  font-size: 12px;
+  margin-top: 4px;
+  }
+
+  .debug-header {
+  background: #2d2d2d;
+  color: #ccc;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #2a2a2a;
+  }
+
+  .education-log {
+  padding: 10px 12px;
+  color: #ccc;
+  }
+
+  .education {
+  background: #1e1e1e;
+  border-top: 1px solid #2a2a2a;
+  font-size: 12px;
+  margin-top: 4px;
+  }
+
+  .education-header {
+  background: #2d2d2d;
+  color: #ccc;
+  padding: 6px 12px;
+  font-weight: bold;
+  border-bottom: 1px solid #2a2a2a;
+  }
+
+  .debug-log {
+  padding: 10px 12px;
+  color: #ccc;
+  }
+
+  .statusbar {
+    grid-column: 1 / -1;
+    background: #007acc;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 4px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+ 
+  }
+  .Job-Text h2 {
+  text-align: center;
+  font-size: 18px;
+  }
+  .education-folder h3{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .debug-time{
+    padding: 0px;
+    margin: 5px;
+  }
+    .education-time{
+    padding: 0px;
+    margin: 5px;
+  }
+
+    .education-log {
+  padding: 10px 12px;
+  color: #ccc;
+  }
