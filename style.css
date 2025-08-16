@@ -85,10 +85,6 @@ body {
     border-bottom: 1px solid #2a2a2a;
   }
 
-  .editor-wrapper {
-    display: flex;
-    height: 100%;
-  }
   .line-numbers {
     background: #2d2d2d;
     color: #858585;
@@ -181,3 +177,32 @@ body {
   padding: 10px 12px;
   color: #ccc;
   }
+
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1e1e1e;
+  color: #fff;
+  padding: 0px;
+  font-weight: bold;
+}
+
+.popup-x {
+  font-size: 20px;
+  color: #fff;
+  cursor: default;
+}
+
+.popup-body {
+  max-height: 90%;
+  max-width: 90%;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.popup-image {
+    max-height: 100%;
+  max-width: 100%;
+}
