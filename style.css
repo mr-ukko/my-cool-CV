@@ -14,7 +14,7 @@ body {
     gap:12px;
     padding:0 10px;
     user-select:none;
-    border-bottom:1px solid var(--border);
+    border-bottom: var(--border);
   }
   .titlebar .menu{
     display:flex;
@@ -43,11 +43,11 @@ body {
     background: #252526;
     padding: 10px;
     overflow-y: auto;
-    border-right: 1px solid #2a2a2a;
-    border-bottom: 1px solid #2a2a2a;
+    border-right: var(--border);
+    border-bottom: var(--border);
   }
   .sidebar h3 {
-    font-size: 18px;
+    font-size: var(--font-size-large);
     padding-top: 0px;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -77,105 +77,90 @@ body {
     background: #37373d;
   }
   .tabs {
-    background: #2d2d2d;
+    background: var(--bg-header);
     color: #ccc;
     display: flex;
     padding: 5px 12px;
-    font-size: 13px;
-    border-bottom: 1px solid #2a2a2a;
+    font-size: var(--font-size-xlarge);
+    border-bottom: var(--border);
   }
 
   .line-numbers {
-    background: #2d2d2d;
+    background: var(--bg-header);
     color: #858585;
     padding: 14px 10px;
-    font-size: 13px;
+    font-size: var(--font-size-medium);
     text-align: right;
     user-select: none;
     white-space: pre;
   }
   .editor {
     padding: 14px;
-    font-size: 13px;
+    font-size: var(--font-size-medium);
     white-space: pre-wrap;
     overflow-y: auto;
     flex: 1;
   }
 
-  .school {
-  background: #1e1e1e;
-  border-top: 1px solid #2a2a2a;
-  font-size: 12px;
+.school {
+  background: var(--bg-color);
+  border-top: var(--border);
+  font-size: var(--font-size-small);
   margin-top: 4px;
   }
 
-  .debug-header {
-  background: #2d2d2d;
+  .debug-header, .education-header{
+  background: var(--bg-header);
   color: #ccc;
   padding: 6px 12px;
   font-weight: bold;
-  border-bottom: 1px solid #2a2a2a;
+  font-size: var(--font-size-medium);
+  border-bottom: var(--border);
+  border-right:  var(--border-width) var(--border-style) var(--bg-color);
   }
 
-  .education-log {
-  padding: 10px 12px;
-  color: #ccc;
-  }
-
-  .education {
-  background: #1e1e1e;
-  border-top: 1px solid #2a2a2a;
-  font-size: 12px;
+.education {
+  background: var(--bg-color);
+  border-top: var(--border);
+  font-size: var(--font-size-small);
   margin-top: 4px;
   }
 
-  .education-header {
-  background: #2d2d2d;
-  color: #ccc;
-  padding: 6px 12px;
-  font-weight: bold;
-  border-bottom: 1px solid #2a2a2a;
-  }
 
-  .debug-log {
+.debug-log, .education-log {
   padding: 10px 12px;
+  font-size: var(--font-size-small);
   color: #ccc;
   }
 
-  .statusbar {
-    grid-column: 1 / -1;
-    background: #007acc;
-    color: #ffffff;
-    font-size: 12px;
-    padding: 4px 10px;
-    text-align: center;
-    display: flex;
-    justify-content: space-between;
- 
-  }
-  .Job-Text h2 {
+.statusbar {
+  grid-column: 1 / -1;
+  background: #007acc;
+  color: #ffffff;
+  font-size: var(--font-size-small);
+  padding: 4px 10px;
   text-align: center;
-  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Job-Text h2 {
+  text-align: center;
+  font-size: var(--font-size-xlarge);
+  margin: 1px;
   }
-  .education-folder h3{
+
+.education-folder h3{
     padding: 0px;
     margin: 0px;
-    font-size: 18px;
+    font-size: var(--font-size-xlarge);
     text-align: center;
   }
 
-  .debug-time{
+.debug-time, .education-time{
+    font-size: var(--font-size-medium);
     padding: 0px;
     margin: 5px;
-  }
-    .education-time{
-    padding: 0px;
-    margin: 5px;
-  }
-
-    .education-log {
-  padding: 10px 12px;
-  color: #ccc;
   }
 
 .popup-header {
@@ -189,7 +174,7 @@ body {
 }
 
 .popup-x {
-  font-size: 20px;
+  font-size: var(--font-size-xlarge);
   color: #fff;
   cursor: default;
 }
@@ -198,7 +183,7 @@ body {
   max-height: 90%;
   max-width: 90%;
   padding: 8px;
-  font-size: 14px;
+  font-size: var(--font-size-medium);
   text-align: center;
 }
 

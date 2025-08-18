@@ -40,7 +40,7 @@ fetch("./information.json")
 
       const log = document.createElement("div");
       log.className = "education-log";
-      log.innerHTML = console.logs.map(line => `> ${line}`).join("<br>");
+      log.innerHTML = console.logs.map(line => ` ${line}`).join("<br>");
 
       const timeStamp = document.createElement("div");
       timeStamp.className = "education-time";
@@ -76,11 +76,13 @@ fetch("./information.json")
     }
 
     function updateEditorContent(content) {
-      editor.textContent = content;
-      const lines = content.split("\n").length;
+      const tagList = Array.isArray(content) ? content : [content];
+      editor.textContent = tagList.join("\n");
+      const lines = tagList.length;
       const lineNums = Array.from({ length: lines }, (_, i) => i + 1)
-        .map(i => i.toString().padStart(2, " "))
-        .join("\n");
+      .map(i => i.toString().padStart(2, " "))
+      .join("\n");
+
       lineNumbers.textContent = lineNums;
     }
 
